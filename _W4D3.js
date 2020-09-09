@@ -42,13 +42,3 @@ Calling onlyPayForHealthyThings(myCart) should return 2.85 from adding the price
     }
     return totPrice;
   }
-
-
-
-
-
-
-
-
-
-
