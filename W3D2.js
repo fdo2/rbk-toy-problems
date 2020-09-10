@@ -40,6 +40,27 @@ console.log(output); // --> hcce kuo toh wnietertsni ghtsip orlbmei
 	}
  countNumOfStrings(["foo", 2, 10, "bar", 5, false, {}, "baz"])
 
+ 	// resolving using each
+ function each ( coll, f){
+  if ( Array.isArray(coll)){
+    for ( var i = 0; i < coll.lenght; i++){
+      f ( coll[i], i)
+    }
+     
+  }else {
+    for (var key in coll){
+      f(coll[key], key)
+    }
+    }
+  }	
+
+   function countNumOfStrings2(arr){
+   	var countr 
+   	each(arr, function(ele){
+   		if ()
+   	})
+   }
+
 
 
 

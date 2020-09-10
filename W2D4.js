@@ -7,14 +7,22 @@
 				return false;
 	}
 
+	function sameLength2(s1, s2){
+		return (s1.length === s2.length)
+	}
+
 
 //2.Write a function called passwordLongEnough that takes a 'password' as a parameter 
 //and returns true if that password is long enough -- you get to decide what constitutes long enough.
-	function sameLength (pass){
+	function passwordLongEnough (pass){
 		if (pass.length>=8){
 				return true;
 		}
 				return false;
+	}
+
+		function passwordLongEnough2(pass){
+		return (pass.length >= 8)
 	}
 //3.Write a function called rentalCar that takes a person's name and age as parmeters, 
 //and returns either 'You cannot have the keys, .', or "Have fun driving", 

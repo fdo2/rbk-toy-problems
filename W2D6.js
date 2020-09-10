@@ -55,3 +55,14 @@ loopAString('abcd');
     }
     reverseStr('hello');
 
+// resolving using recursion by Qamar
+// the function will reverse a string 
+    function reverseStr2(str, res){
+      var res =  res || ""
+      if (str.length === 0 ){
+        return res;
+      }
+      res += str[str.length - 1]
+       return reverseStr2(str.slice(0, -1), res)
+    }
+reverseStr2("str")
