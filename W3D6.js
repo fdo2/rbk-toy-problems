@@ -106,7 +106,7 @@ Would return a new array with the following elements:
 ];
 //notice that the element with "cookware" is missing
 
-<<<<<<< HEAD
+
 */
 
 

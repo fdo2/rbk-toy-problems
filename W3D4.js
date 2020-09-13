@@ -37,7 +37,7 @@ I.e. If someone called your function with 10 objects
 
 // your answer is here
 
-<<<<<<< HEAD
+
   function tallEnoughToRide(arr){
     var res=[]
      for(i=0; i<arr.length; i++){
@@ -49,8 +49,7 @@ I.e. If someone called your function with 10 objects
   }
   tallEnoughToRide(groupA)
 
-=======
->>>>>>> cfe964db98c8907a6d4d515df9d68ebab44d1f91
+
 /*
 2-Working off of the same data structure as tallEnoughToRide, 
 write a function called tallestPerson that takes  an array of people objects as well, 
@@ -64,7 +63,6 @@ tallestPerson(groupA); //"Kiana at 55 inches"
 
 */
 
-<<<<<<< HEAD
 // your answer is here
 
 
@@ -82,6 +80,6 @@ tallestPerson(groupA); //"Kiana at 55 inches"
 
 
  
-=======
+
 // your answer is here
->>>>>>> cfe964db98c8907a6d4d515df9d68ebab44d1f91
+

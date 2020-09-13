@@ -1,5 +1,5 @@
 /*
->>>>>>> cfe964db98c8907a6d4d515df9d68ebab44d1f91
+
 You were put in charge of ordering for tonight's company get-together, 
 and you were given a data set with people's meal preferences and dietary restrictions. 
 Write a function called orderAVegetarianDish that takes  an array of empoloyee objects, 
@@ -33,10 +33,7 @@ var staffA = [
   }
 ];
 Calling your function should result in:
-<<<<<<< HEAD
-=======
 
->>>>>>> cfe964db98c8907a6d4d515df9d68ebab44d1f91
 orderAVegetarianDish(staffA); //true
 */
 
@@ -45,7 +42,7 @@ orderAVegetarianDish(staffA); //true
 
 
   function orderAVegetarianDish(array){
-      if (arara[i]["mealPreferences"] === "vegetarian" ) {
+      if (array[i]["mealPreferences"] === "vegetarian" ) {
         return true;
       }
         return false;
