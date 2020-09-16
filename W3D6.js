@@ -1,3 +1,4 @@
+
 /*
 Exercise 1
 Currently, you have a budget of $100. You have a shopping list in decreasing priority, 
