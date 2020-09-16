@@ -18,28 +18,30 @@ function each(coll, func) {
 
 /*
 1) implement map function
-
 */
-	function map(array, f) {
-	  var acc = [];
-
-	   if (!Array.isArray(coll)) {
-    acc = {};
+  function map(arr, f) {
+    var acc = [];
+    each(arr,function(value,i){
+      acc.push(f(value,i))
+    })
+    return acc;
   }
-  each(coll, function (element, key) {
-    acc[key] = f(element, key);
-  });
-	  
-	  return acc;
-	}
 
 /*
 1) implement the improved map 
 */
 
 
-function map(coll, f) {
-	var acc = [];
-	  
-	 return acc;
-}
+
+  function map(coll, f) {
+    var acc = [];
+
+     if (!Array.isArray(coll)) {
+    acc = {};
+  }
+  each(coll, function (element, key) {
+    acc[key] = f(element, key);
+  });
+    
+    return acc;
+  }
